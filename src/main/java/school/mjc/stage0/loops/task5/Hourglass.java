@@ -13,18 +13,18 @@ public class Hourglass {
                 } else if (i > 1 && i < height/2) {
                     count -= 2;
                     ++space;
-                    System.out.println(" ".repeat(space)+ symbol.repeat(count));
+                    System.out.println(" ".repeat(space)+ symbol.repeat(count)+" ".repeat(space));
 
                 } else if (i==height/2) {
                     count -= 2;
                     ++space;
-                    System.out.println(" ".repeat(space)+ symbol.repeat(count));
-                    System.out.println(" ".repeat(space)+ symbol.repeat(count));
+                    System.out.println(" ".repeat(space)+ symbol.repeat(count)+" ".repeat(space));
+                    System.out.println(" ".repeat(space)+ symbol.repeat(count)+" ".repeat(space));
                     i++;
                 } else{
                     count+=2;
                     --space;
-                    System.out.println(" ".repeat(space)+ symbol.repeat(count));
+                    System.out.println(" ".repeat(space)+ symbol.repeat(count)+" ".repeat(space));
                 }
 
             }
@@ -36,16 +36,16 @@ public class Hourglass {
                 } else if (i > 1 && i <= height/2) {
                     count -= 2;
                     ++space;
-                    System.out.println(" ".repeat(space)+ symbol.repeat(count));
+                    System.out.println(" ".repeat(space)+ symbol.repeat(count)+" ".repeat(space));
 
                 } else if (i == (height/2)+1) {
                     count -= 2;
                     ++space;
-                    System.out.println(" ".repeat(space)+ symbol.repeat(count));
+                    System.out.println(" ".repeat(space)+ symbol.repeat(count)+" ".repeat(space));
                 } else{
                     count+=2;
                     --space;
-                    System.out.println(" ".repeat(space)+ symbol.repeat(count));
+                    System.out.println(" ".repeat(space)+ symbol.repeat(count)+" ".repeat(space));
                 }
 
             }
