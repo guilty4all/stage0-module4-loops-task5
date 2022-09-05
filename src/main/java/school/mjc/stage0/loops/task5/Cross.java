@@ -12,7 +12,7 @@ public class Cross {
                     line+=symbol;
                 }
             }else{
-                line = " ".repeat(sideLength/2) + symbol + "".repeat(sideLength/2);
+                line = " ".repeat(sideLength/2) + symbol + " ".repeat(sideLength/2);
             }
             System.out.println(line);
         }
